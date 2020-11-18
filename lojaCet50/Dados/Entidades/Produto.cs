@@ -9,7 +9,7 @@ namespace lojaCet50.Dados.Entidades
 
             public string Nome { get; set; }
 
-
+            [Display(Name = "Preço")]
             [DisplayFormat(DataFormatString = "{0:C2}", ApplyFormatInEditMode = false)]
             public decimal Preco { get; set; }
 
